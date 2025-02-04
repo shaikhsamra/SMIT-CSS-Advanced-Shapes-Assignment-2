@@ -1,0 +1,58 @@
+body {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color: rgb(15, 3, 105);
+  text-shadow: 5px 5px 5px rgb(130, 161, 241);
+  font-family: serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+#container-1 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 40px;
+}
+
+p{
+    width: 200px;
+}
+.one{
+    border-style: solid;
+    border-width: 7px ;
+    border-radius: 200px 200px 0px 0px;
+    border-color: rgb(47, 227, 19);
+    padding: 70px;
+    box-shadow: 5px 5px 10px rgba(92, 237, 59, 0.5); 
+}
+.two{
+    border: 7px solid  rgb(239, 168, 62);
+    box-shadow: 5px 5px 10px rgba(244, 185, 96, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    padding: 70px; 
+}
+#container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 40px;
+  }
+  .three{
+    border: 7px solid rgb(22, 171, 171);
+    border-radius: 10px 100px 100px 10px;
+    box-shadow: 5px 5px 10px rgba(127, 245, 249, 0.5);
+    padding: 70px; 
+  }
+  .four{
+    border: 7px solid  rgb(201, 11, 118);
+    box-shadow: 5px 5px 10px rgba(220, 108, 179, 0.5);
+    border-radius: 0px 200px 0px 200px;
+    padding: 70px;
+  }
